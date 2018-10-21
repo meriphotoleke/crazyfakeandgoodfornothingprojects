@@ -35,7 +35,7 @@ def mentalcondition(t):
 
 a=int(input("Enter your body health from a scale of 1-10:\n"))
 a=healthpressuremotivationandmoodhistory(a)
-b=int(input("Did you suffer from mental illness? Enter 1 for yes and 0 for no!\n"))
+b=int(input("Did you suffer from mental illness? Enter 1 for no and 0 for yes!\n"))
 b=mentalcondition(b)
 c=int(input("Enter your work pressure level from 1-10:\n"))
 c=healthpressuremotivationandmoodhistory(c)
